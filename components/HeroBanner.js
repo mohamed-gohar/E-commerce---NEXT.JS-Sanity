@@ -14,7 +14,7 @@ function HeroBanner({ bannerData }) {
           className="hero-banner-image"
         />
         <div>
-          <Link href={`/product/${bannerData.product}`}>
+          <Link href={`/product/${bannerData.product}`} passHref={true}>
             <button type="button">{bannerData.buttonText}</button>
           </Link>
         </div>

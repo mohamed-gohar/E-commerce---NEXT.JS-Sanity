@@ -28,8 +28,8 @@ function ProductDetails({ product, products }) {
             {image?.map((item, i) => (
               <img
                 src={urlFor(item)}
+                key={item}
                 alt={`${name}-${i}`}
-                key={i}
                 className={
                   i === index ? "small-image selected-image" : " small-image"
                 }
