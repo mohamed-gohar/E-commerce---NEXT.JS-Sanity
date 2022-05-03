@@ -29,6 +29,7 @@ function ProductDetails({ product, products }) {
               <img
                 src={urlFor(item)}
                 alt={`${name}-${i}`}
+                key={i}
                 className={
                   i === index ? "small-image selected-image" : " small-image"
                 }
