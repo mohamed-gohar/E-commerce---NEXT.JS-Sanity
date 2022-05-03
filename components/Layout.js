@@ -1,4 +1,4 @@
-import Head from "next/Head";
+import Head from "next/head";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 
